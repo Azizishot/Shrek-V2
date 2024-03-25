@@ -1,7 +1,7 @@
 
 <br/>
 <p align="center">
-  <a href="https://github.com/blackray207/Shrek-Tools">
+  <a href="https://github.com/Azizishot/Shrek-V2">
     <img src="https://www.freepnglogos.com/uploads/shrek-png/shrek-icon-web-icons-png-0.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -24,11 +24,11 @@
 </p>
 
 <p align="center">
-  <a href="https://discord.gg/V2EFYBWw5Q">
+  <a href="https://discord.gg/azmarket">
     <img alt="Discord" src="https://img.shields.io/discord/1146496916419526727?label=&logo=discord&logoColor=ffffff&color=C50F1f&labelColor=C50F1f">
   </a>
-  <a href="https://www.codefactor.io/repository/github/blackray207/Shrek-Tools">
-    <img src="https://www.codefactor.io/repository/github/blackray207/Shrek-Tools/badge" alt="CodeFactor" />
+  <a href="(https://github.com/Azizishot/Shrek-V2/)">
+    <img src=](https://github.com/Azizishot/Shrek-V2/)" alt="CodeFactor" />
   </a>
     <img alt="lines" src="https://sloc.xyz/github/blackray207/Shrek-Tools">
 </p>
@@ -65,6 +65,6 @@ By using Shrek-Tools, you agree that you hold responsibility and accountability 
 
 ## License📃
 
-Distributed under the MIT License. See [LICENSE](https://github.com/blackray207/Shrek-Tools/blob/main/LICENSE) for more information
+Distributed under the MIT License. See [LICENSE](https://github.com/Azizishot/Shrek-V2/) for more information
 
 
