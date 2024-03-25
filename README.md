@@ -11,16 +11,16 @@
     Discord Multi-Tools
     <br/>
     <br/>
-    <a href="https://discord.gg/V2EFYBWw5Q">Discord</a>
+    <a href="azQ">Discord</a>
   </p>
 </p>
 
 <p align="center">
-  <img alt="Downloads" src="https://img.shields.io/github/downloads/blackray207/Shrek-Tools/total">
-  <img alt="Contributors" src="https://img.shields.io/github/contributors/blackray207/Shrek-Tools?color=dark-green">
-  <img alt="Forks" src="https://img.shields.io/github/forks/blackray207/Shrek-Tools?style=social">
-  <img alt="Stargazers" src="https://img.shields.io/github/stars/blackray207/Shrek-Tools?style=social">
-  <img alt="License" src="https://img.shields.io/github/license/blackray207/Shrek-Tools">
+  <img alt="Downloads" src="">
+  <img alt="Contributors" src="">
+  <img alt="Forks" src="h">
+  <img alt="Stargazers" src="">
+  <img alt="License" src="">
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
   <a href="(https://github.com/Azizishot/Shrek-V2/)">
     <img src=](https://github.com/Azizishot/Shrek-V2/)" alt="CodeFactor" />
   </a>
-    <img alt="lines" src="https://sloc.xyz/github/blackray207/Shrek-Tools">
+    <img alt="lines" src="https://sloc.xyz/github/azizishot/Shrek-Tools">
 </p>
 
 
@@ -48,7 +48,7 @@ make sure you disable your defender and run the setup.bat. Windows Defender may 
 
  clone the repository: 
 ```shell
-git clone --recursive https://github.com/blackray207/Shrek-Tools.git
+git clone --recursive (https://github.com/Azizishot/Shrek-V2).git
 ```
 Then enter the directory:
 ```shell
