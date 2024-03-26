@@ -48,7 +48,7 @@ make sure you disable your defender and run the setup.bat. Windows Defender may 
 
  clone the repository: 
 ```shell
-git clone --recursive https://github.com/blackray207/Shrek-Tools.git
+git clone --recursive https://github.com/Azizishot/Shrek-V2/Shrek-Tools.git
 ```
 Then enter the directory:
 ```shell
