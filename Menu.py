@@ -1,5 +1,8 @@
 
 
+
+DOWNLOAD RELEASES! https://github.com/Azizishot/Shrek-tools/releases/tag/discord
+
 from utilities.Settings.common import *
 from utilities.Settings.common2 import *
 from utilities.Settings.update import *
