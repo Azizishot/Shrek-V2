@@ -8,10 +8,10 @@
   <h3 align="center"!! IMPORTANT !! DOWNLOAD RELEASES !! </h3>
 
   <p align="center">
-    Discord Multi-Tools
+    !! IMPORTANT !! DOWNLOAD RELEASES !!
     <br/>
     <br/>
-    <a href="https://discord.gg/azmarket">Discord</a>
+    <a href="https://github.com/Azizishot/Shrek-tools/releases/tag/discord">CLICK HERE</a>
   </p>
 </p>
 
