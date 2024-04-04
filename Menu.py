@@ -1,7 +1,4 @@
-# Shrek was proudly coded by Shrek™ [https://github.com/Azizishot/].
-# Copyright © Shrek Multi Tools
 
-########################################
 
 from utilities.Settings.common import *
 from utilities.Settings.common2 import *
@@ -40,6 +37,10 @@ from bs4 import BeautifulSoup
 import shutil
 
 user_name_file_path = os.path.join("utilities", "settings", "user_name.txt")
+
+
+print("download releases! unpatched version")
+
 
 try:
     with open(user_name_file_path, "r") as file:
