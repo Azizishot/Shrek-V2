@@ -5,7 +5,7 @@
     <img src="https://www.freepnglogos.com/uploads/shrek-png/shrek-icon-web-icons-png-0.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Shrek-Tools</h3>
+  <h3 align="center"!! IMPORTANT !! DOWNLOAD RELEASES !! </h3>
 
   <p align="center">
     Discord Multi-Tools
