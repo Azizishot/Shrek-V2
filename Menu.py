@@ -1,7 +1,7 @@
+# Shrek was proudly coded by Shrek™ [https://github.com/Azizishot/].
+# Copyright © Shrek Multi Tools
 
-
-
-DOWNLOAD RELEASES! https://github.com/Azizishot/Shrek-tools/releases/tag/discord
+########################################
 
 from utilities.Settings.common import *
 from utilities.Settings.common2 import *
@@ -31,19 +31,9 @@ from ctypes import windll
 import subprocess
 import discum
 import sys
-import webbrowser
-import base64
-from colorama import Fore, Back, Style
-import socket
-from zipfile import ZipFile
-from bs4 import BeautifulSoup
 import shutil
 
 user_name_file_path = os.path.join("utilities", "settings", "user_name.txt")
-
-
-print("download releases! unpatched version")
-
 
 try:
     with open(user_name_file_path, "r") as file:
@@ -63,9 +53,11 @@ except FileNotFoundError:
      ░           ░  ░   ░     ░                  ░       ░         ░   ░   ░  
 
 {Fore.GREEN}[{Fore.WHITE}+{Fore.GREEN}] {Fore.WHITE}Enter your username: """)
-    os.makedirs(os.path.dirname(user_name_file_path), exist_ok=True)
+    os.makedirs(os.path.dirnae(user_name_file_path), exist_ok=True)
     with open(user_name_file_path, "w") as file:
         file.write(user_name)
+
+cd utilities
 
 def cls():
   os.system('cls' if os.name=='nt' else 'clear')
