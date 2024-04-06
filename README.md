@@ -5,13 +5,13 @@
     <img src="https://www.freepnglogos.com/uploads/shrek-png/shrek-icon-web-icons-png-0.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center"!! IMPORTANT !! DOWNLOAD RELEASES !! </h3>
+  <h3 align="center"Shrek Tool</h3>
 
   <p align="center">
-    !! IMPORTANT !! DOWNLOAD RELEASES !!
+   shrek tools
     <br/>
     <br/>
-    <a href="https://github.com/Azizishot/Shrek-tools/releases/tag/discord">CLICK HERE</a>
+    <a href="Discord">http://discord.gg/</a>
   </p>
 </p>
 
