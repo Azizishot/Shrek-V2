@@ -11,7 +11,7 @@
    shrek tools
     <br/>
     <br/>
-    <a href="Discord">http://discord.gg/</a>
+    <a href="Discord">Fixed All errors Enjoy ✌!/</a>
   </p>
 </p>
 
