@@ -11,7 +11,7 @@
    shrek tools
     <br/>
     <br/>
-    <a href="Discord">Fixed All errors Enjoy ✌!/</a>
+    <a href="Discord">It gave random errors, but it is fixed! enjoy <3</a>
   </p>
 </p>
 
@@ -27,8 +27,6 @@
   <a href="https://discord.gg/azmarket">
     <img alt="Discord" src="https://img.shields.io/discord/1146496916419526727?label=&logo=discord&logoColor=ffffff&color=C50F1f&labelColor=C50F1f">
   </a>
-  <a href="https://www.codefactor.io/repository/github/blackray207/Shrek-Tools">
-    <img src="https://www.codefactor.io/repository/github/blackray207/Shrek-Tools/badge" alt="CodeFactor" />
   </a>
     <img alt="lines" src="https://sloc.xyz/github/blackray207/Shrek-Tools">
 </p>
