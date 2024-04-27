@@ -39,8 +39,8 @@
 
 Welcome to Shrek-Tools, a multifunctional tool with a multitude of options. All functions are unrestricted, and you will not have locks on your tokens. This tool can be used with or without proxies. We hope you enjoy it, and feel free to give it a star.
 
-# Warning❗
-make sure you disable your defender and run the setup.bat. Windows Defender may believe it to be a virus because the program may generate grabbers or DDoS attacks.
+# READ ❗
+make sure you open setup.bat first and then start.bat
 
 ### Installation⚡
 
