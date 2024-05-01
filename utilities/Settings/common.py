@@ -1,7 +1,4 @@
-# Shrek was proudly coded by Shrek™ [https://github.com/blackray207].
-# Copyright © Shrek Multi Tools
 
-####################################################################
 
 import os
 import re
@@ -478,7 +475,7 @@ shrek = r'''
 ░  ░  ░    ░  ░░ ░   ░   ░    ░   ░ ░░ ░ 
       ░    ░  ░  ░   ░        ░   ░  ░   
 
-         Github.com/blackray207           
+         Github.com/azizishot           
 '''
 System.Size(120, 30)
 System.Clear()
