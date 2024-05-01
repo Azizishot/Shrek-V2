@@ -1,4 +1,7 @@
+# Shrek was proudly coded by Shrek™ [https://github.com/azizishot].
+# Copyright © Shrek Multi Tools
 
+########################################
 
 from utilities.Settings.common import *
 from utilities.Settings.common2 import *
@@ -28,6 +31,12 @@ from ctypes import windll
 import subprocess
 import discum
 import sys
+import webbrowser
+import base64
+from colorama import Fore, Back, Style
+import socket
+from zipfile import ZipFile
+from bs4 import BeautifulSoup
 import shutil
 
 user_name_file_path = os.path.join("utilities", "settings", "user_name.txt")
@@ -50,11 +59,9 @@ except FileNotFoundError:
      ░           ░  ░   ░     ░                  ░       ░         ░   ░   ░  
 
 {Fore.GREEN}[{Fore.WHITE}+{Fore.GREEN}] {Fore.WHITE}Enter your username: """)
-    os.makedirs(os.path.dirnae(user_name_file_path), exist_ok=True)
+    os.makedirs(os.path.dirname(user_name_file_path), exist_ok=True)
     with open(user_name_file_path, "w") as file:
         file.write(user_name)
-
-cd utilities
 
 def cls():
   os.system('cls' if os.name=='nt' else 'clear')
@@ -103,7 +110,7 @@ def tool():
     print(Fore.GREEN +f'                 ║     [{Fore.WHITE}09{Fore.GREEN}] {Fore.WHITE}GROUPCHAT SPAMMER   {Fore.GREEN}║     {Fore.GREEN}[{Fore.WHITE}18{Fore.GREEN}] {Fore.WHITE}DDOS ATTACKER   {Fore.GREEN}║     {Fore.GREEN}[{Fore.WHITE}27{Fore.GREEN}] {Fore.WHITE}MASE REPORT     {Fore.GREEN}    ║')
     print(Fore.GREEN + '                 ║                              ║                          ║                              ║')
     print(Fore.GREEN + '                 ╚══════════════════════════════╩══════════════════════════╩══════════════════════════════╝')
-    print(Fore.GREEN + '')
+    print(Fore.GREEN +f'                                                                                          {Fore.GREEN}[{Fore.WHITE}>{Fore.GREEN}] {Fore.WHITE}NEXT PAGE')
     print(Fore.GREEN + '')
     print(f'  {Fore.WHITE}┌──<{user_name}{Fore.GREEN}@{Fore.WHITE}Shrek>─{Fore.GREEN}[{Fore.WHITE}+{Fore.GREEN}]')
     global options
@@ -1790,7 +1797,7 @@ def tool():
 
 
     if whichserver == 1:
-      webbrowser.open('https://discord.gg/azmarket')
+      webbrowser.open('https://discord.gg/Sa4PzQhKWr')
     elif whichserver == 0:
       tool()
       return
@@ -2874,10 +2881,38 @@ if __name__ == '__main__':
         os.system('pause')
         tool()
     elif Setting in ['2','02']:
-      webbrowser.open('https://discord.gg/azmarket')
+      webbrowser.open('https://discord.gg/mQVvRGfs46')
       return
     elif Setting in ['3','03']:
         cls()
+        print(f"""
+{Fore.GREEN}> {Fore.WHITE}TOKEN NUKERS: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}TOKEN JOINER: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}TOKEN LEAVER: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}TOKEN ONLINER: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}WEBHOOK RAIDER Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}SERVER NUKER: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}SERVER SPAMMER: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}FRIEND SPAMMER: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}DDOS ATTACKER: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}TOKEN GEN: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}NITRO GEN: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}PROXY GEN: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}GRABBER GEN: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}QR GRABBER GEN: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}RAT BOT GEN: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}ID GEN: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}NAME GEN: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}TOKEN BRUTE-FORCER: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}TOKEN CHECKER: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}TOKEN LOGIN: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}TOKEN INFO: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}PFP CHANGER: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}HYPEQUAD CHANGER: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}BIO CHANGER: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}ID TO TOKEN: Comming Soon...
+{Fore.GREEN}> {Fore.WHITE}MASE REPORT: Comming Soon...
+            """)
     else:
         print('Invalid Option')
 
@@ -3668,6 +3703,123 @@ Press ENTER to continue... ''')
     exit = clear()
     exit = tool()
 
+  global option2
+  def option2():
+    cls()
+    ctypes.windll.kernel32.SetConsoleTitleW("Shrek Multi Tools | Made by Shrek™")
+    print(f'''
+{Fore.LIGHTGREEN_EX}                                           ██████   ██░ ██  ██▀███  ▓█████ ▀██ ▄█▀ 
+{Fore.LIGHTGREEN_EX}                                         ▒██    ▒ ▒▓██░ ██ ▓██ ▒ ██▒▓█   ▀  ██▄█▒ 
+{Fore.LIGHTGREEN_EX}                                         ░ ▓██▄   ░▒██▀▀██ ▓██ ░▄█ ▒▒███   ▓███▄░ 
+{Fore.LIGHTGREEN_EX}                                           ▒   ██▒ ░▓█ ░██ ▒██▀▀█▄  ▒▓█  ▄ ▓██ █▄ 
+{Fore.LIGHTGREEN_EX}                                         ▒██████▒▒ ░▓█▒░██▓░██▓ ▒██▒░▒████ ▒██▒ █▄
+{Fore.LIGHTGREEN_EX}                                         ▒ ▒▓▒ ▒ ░  ▒ ░░▒░▒░ ▒▓ ░▒▓░░░ ▒░  ▒ ▒▒ ▓▒
+{Fore.LIGHTGREEN_EX}                                         ░ ░▒  ░    ▒ ░▒░ ░  ░▒ ░ ▒░ ░ ░   ░ ░▒ ▒░     
+{Fore.LIGHTGREEN_EX}                                         ░  ░  ░    ░  ░░ ░   ░   ░    ░   ░ ░░ ░                      
+{Fore.LIGHTGREEN_EX}                                               ░    ░  ░  ░   ░        ░   ░  ░   
+    ''')                           
+
+    print(Fore.GREEN + '                 ')
+    print(Fore.GREEN +f'                 ╔══════════════════════════════╦══════════════════════════╦══════════════════════════════╗')
+    print(Fore.GREEN + '                 ║                              ║                          ║                              ║')
+    print(Fore.GREEN +f'                 ║     [{Fore.WHITE}28{Fore.GREEN}] {Fore.WHITE}VC SPAMMER{Fore.GREEN}          ║     {Fore.GREEN}({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                ║     {Fore.GREEN}({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                    ║')
+    print(Fore.GREEN +f'                 ║     [{Fore.WHITE}29{Fore.GREEN}] {Fore.WHITE}SERVER LOOKUP{Fore.GREEN}       ║     {Fore.GREEN}({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                ║     {Fore.GREEN}({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                    ║')
+    print(Fore.GREEN +f'                 ║     ({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                    ║     {Fore.GREEN}({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                ║     {Fore.GREEN}({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                    ║')
+    print(Fore.GREEN +f'                 ║     ({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                    ║     {Fore.GREEN}({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                ║     {Fore.GREEN}({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                    ║')
+    print(Fore.GREEN +f'                 ║     ({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                    ║     {Fore.GREEN}({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                ║     {Fore.GREEN}({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                    ║')
+    print(Fore.GREEN +f'                 ║     ({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                    ║     {Fore.GREEN}({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                ║     {Fore.GREEN}({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                    ║')
+    print(Fore.GREEN +f'                 ║     ({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                    ║     {Fore.GREEN}({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                ║     {Fore.GREEN}({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                    ║')
+    print(Fore.GREEN +f'                 ║     ({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                    ║     {Fore.GREEN}({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                ║     {Fore.GREEN}({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                    ║')
+    print(Fore.GREEN +f'                 ║     ({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                    ║     {Fore.GREEN}({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                ║     {Fore.GREEN}({Fore.WHITE}N{Fore.GREEN}/{Fore.WHITE}A{Fore.GREEN})                    ║')
+    print(Fore.GREEN + '                 ║                              ║                          ║                              ║')
+    print(Fore.GREEN + '                 ╚══════════════════════════════╩══════════════════════════╩══════════════════════════════╝')
+    print(Fore.GREEN +f'                                                                                          {Fore.GREEN}[{Fore.WHITE}<{Fore.GREEN}] {Fore.WHITE}PREVIOUS PAGE')
+    print(Fore.GREEN + '')
+    print(f'  {Fore.WHITE}┌──<{user_name}{Fore.GREEN}@{Fore.WHITE}Shrek>─{Fore.GREEN}[{Fore.WHITE}+{Fore.GREEN}]')
+    global options
+    option2 = input(f'  {Fore.WHITE}└───{Fore.GREEN}>{Fore.WHITE} ')
+
+
+    if option2 in ['28']:
+      ctypes.windll.kernel32.SetConsoleTitleW("Shrek Multi Tools | VoiceChat Spammer")
+      cls()
+      print(f"""
+  {Fore.GREEN}
+   ▄████  ██▀███   ▒█████   █    ██  ██▓███        ██████  ██▓███   ▄▄▄      ███▄ ▄███▓ ███▄ ▄███▓ ▓█████ ██▀███  
+   ██▒ ▀█▓██ ▒ ██▒▒██▒  ██▒ ██  ▓██▒▓██░  ██     ▒██    ▒ ▓██░  ██ ▒████▄   ▓██▒▀█▀ ██▒▓██▒▀█▀ ██▒ ▓█   ▀▓██ ▒ ██▒
+  ▒██░▄▄▄▓██ ░▄█ ▒▒██░  ██▒▓██  ▒██░▓██░ ██▓▒    ░ ▓██▄   ▓██░ ██▓▒▒██  ▀█▄ ▓██    ▓██░▓██    ▓██░ ▒███  ▓██ ░▄█ ▒
+  ░▓█  ██▒██▀▀█▄  ▒██   ██░▓▓█  ░██░▒██▄█▓▒ ▒      ▒   ██▒▒██▄█▓▒ ▒░██▄▄▄▄██▒██    ▒██ ▒██    ▒██  ▒▓█  ▄▒██▀▀█▄  
+  ▒▓███▀▒░██▓ ▒██▒░ ████▓▒░▒▒█████▓ ▒██▒ ░  ░    ▒██████▒▒▒██▒ ░  ░▒▓█   ▓██▒██▒   ░██▒▒██▒   ░██▒▒░▒████░██▓ ▒██▒
+  ░▒   ▒ ░ ▒▓ ░▒▓░░ ▒░▒░▒░ ░▒▓▒ ▒ ▒ ▒▓▒░ ░  ░    ▒ ▒▓▒ ▒ ░▒▓▒░ ░  ░░▒▒   ▓▒█░ ▒░   ░  ░░ ▒░   ░  ░░░░ ▒░ ░ ▒▓ ░▒▓░
+   ░   ░   ░▒ ░ ▒   ░ ▒ ▒░ ░░▒░ ░ ░ ░▒ ░         ░ ░▒  ░ ░░▒ ░     ░ ░   ▒▒ ░  ░      ░░  ░      ░░ ░ ░    ░▒ ░ ▒ 
+   ░   ░   ░░   ░ ░ ░ ░ ▒   ░░░ ░ ░ ░░           ░  ░  ░  ░░         ░   ▒  ░      ░   ░      ░       ░    ░░   ░ 
+       ░    ░         ░ ░     ░                        ░                 ░         ░          ░   ░   ░     ░     
+  
+          """)    
+      tokenlist = open("tokens.txt", "r").read().splitlines()
+      channel = input(f"""{Fore.GREEN}[{Fore.WHITE}+{Fore.GREEN}]{Fore.WHITE} Voice Channel ID: """)
+      server = input(f"""{Fore.GREEN}[{Fore.WHITE}+{Fore.GREEN}]{Fore.WHITE} Server ID: """)
+      deaf = input(f"""{Fore.GREEN}[{Fore.WHITE}+{Fore.GREEN}] {Fore.WHITE}Defean: (y/n)? """)
+      if deaf == "y":
+        deaf = True
+        if deaf == "n":
+          deaf = False
+      mute = input(f"""{Fore.GREEN}[{Fore.WHITE}+{Fore.GREEN}] {Fore.WHITE}Mute: (y/n)? """)
+      if mute == "y":
+        mute = True
+        if mute == "n":
+          mute = False
+      stream = input(f"""{Fore.GREEN}[{Fore.WHITE}+{Fore.GREEN}] {Fore.WHITE}Stream: (y/n)? """)
+      if stream == "y":
+        stream = True
+        if stream == "n":
+          stream = False
+      video = input(f"""{Fore.GREEN}[{Fore.WHITE}+{Fore.GREEN}] {Fore.WHITE}Video: (y/n)? """)
+      if video == "y":
+        video = True
+        if video == "n":
+          video = False
+  
+      executor = ThreadPoolExecutor(max_workers=int(1000))
+      def run(token):
+        while True:
+          ws = WebSocket()
+          ws.connect("wss://gateway.discord.gg/?v=8&encoding=json")
+          hello = loads(ws.recv())
+          heartbeat_interval = hello['d']['heartbeat_interval']
+          ws.send(dumps({"op": 2,"d": {"token": token,"properties": {"$os": "windows","$browser": "Discord","$device": "desktop"}}}))
+          ws.send(dumps({"op": 4,"d": {"guild_id": server,"channel_id": channel,"self_mute": mute,"self_deaf": deaf, "self_stream?": stream, "self_video": video}}))
+          ws.send(dumps({"op": 18,"d": {"type": "guild","guild_id": server,"channel_id": channel,"preferred_region": "singapore"}}))
+          ws.send(dumps({"op": 1,"d": None}))
+          sleep(0.1)
+  
+      i = 0
+  
+      for token in tokenlist:
+        executor.submit(run, token)
+        i+=1
+        print(f"""{Fore.YELLOW}[{Fore.WHITE}-{Fore.YELLOW}] {Fore.WHITE}Joined VC""")
+        sleep(0.01)
+      yay = input(f"""{Fore.RED}[{Fore.WHITE}!{Fore.RED}] {Fore.WHITE}Press ENTER to Stop VC Spammer!""")
+
+    elif option2 in ['29']:
+      ctypes.windll.kernel32.SetConsoleTitleW("Shrek Multi Tools | Server Lookup")
+      exec(open('utilities/Plugins/Server_Lookup.py').read())
+
+    elif option2 in ['<']:
+      tool()
+      return
+
+    else:
+      print("Error, Invalid Option")
+
+
+    while __name__ == '__main__' and option2 not in ['<']:
+      print(Fore.WHITE)
+      os.system('pause')
+      tool()
+
+
   if options in ['1','01']:
     tokennuker()
   elif options in ['2','02']:
@@ -3730,6 +3882,8 @@ Press ENTER to continue... ''')
     settings()
   elif options in ['UPD','upd']:
     search_for_updates()
+  elif options in ['>']:
+    option2()
   else:
     print("Error, Invalid Option")
 
@@ -3740,4 +3894,3 @@ while __name__ == '__main__':
     print(Fore.WHITE)
     os.system('pause')
     tool()
-
