@@ -30,7 +30,7 @@ lb = Fore.LIGHTBLUE_EX
 def search_for_updates():
     clear()
     setTitle("New Update Found | Made by Shrek™")
-    r = requests.get("https://github.com/blackray207/Shrek-Tools/releases/latest")
+    r = requests.get("https://github.com/azizishot/Shrek-Tools/releases/latest")
 
     soup = str(BeautifulSoup(r.text, 'html.parser'))
     s1 = re.search('<title>', soup)
@@ -51,7 +51,7 @@ def search_for_updates():
             ),
             end="\n\n",
         )
-        soup = BeautifulSoup(requests.get("https://github.com/blackray207/Shrek-Tools/releases").text, 'html.parser')
+        soup = BeautifulSoup(requests.get("https://github.com/azizishot/Shrek-Tools/releases").text, 'html.parser')
         for link in soup.find_all('a'):
             if "releases/download" in str(link):
                 update_url = f"https://github.com/{link.get('href')}"
@@ -79,7 +79,7 @@ def search_for_updates():
                 os._exit(0)
 
             else:
-                new_version_source = requests.get("https://github.com/blackray207/Shrek-Tools/archive/refs/heads/master.zip")
+                new_version_source = requests.get("https://github.com/azizishot/Shrek-Tools/archive/refs/heads/master.zip")
                 with open("Shrek-Tools-main.zip", 'wb')as zipfile:
                     zipfile.write(new_version_source.content)
                 with ZipFile("Shrek-Tools-main.zip", 'r') as filezip:
