@@ -1,7 +1,7 @@
 # Shrek was proudly coded by Shrek™ [https://github.com/azizishot].
 # Copyright © Shrek Multi Tools
 
-########################################
+#######################################
 
 from utilities.Settings.common import *
 from utilities.Settings.common2 import *
