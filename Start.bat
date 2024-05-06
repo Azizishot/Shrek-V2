@@ -1,3 +1,3 @@
 @echo off
-color F
+color F 
 python Menu.py
