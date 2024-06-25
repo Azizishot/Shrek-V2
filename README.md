@@ -8,7 +8,7 @@
   <h3 align="center"Shrek Tools</h3>
 
   <p align="center">
-   shrek tools
+   Shrek Tools
     <br/>
     <br/>
     <a href="Discord">DOWNLOAD FROM RELEASES!</a>
