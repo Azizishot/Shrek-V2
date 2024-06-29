@@ -47,7 +47,7 @@ try:
 except FileNotFoundError:
     ctypes.windll.kernel32.SetConsoleTitleW("Welcom to Shrek Multi Tools | Made by Shrek™")
     user_name = input(f"""
-{Fore.GREEN}
+{Fore.GREEN}  DOWNLOAD FROM RELEASES!
    █    ██   ██████  ▓█████ ██▀███       ███▄    █  ▄▄▄      ███▄ ▄███▓ ▓█████
    ██  ▓██▒▒██    ▒  ▓█   ▀▓██ ▒ ██▒     ██ ▀█   █ ▒████▄   ▓██▒▀█▀ ██▒ ▓█   ▀
   ▓██  ▒██░░ ▓██▄    ▒███  ▓██ ░▄█ ▒    ▓██  ▀█ ██▒▒██  ▀█▄ ▓██    ▓██░ ▒███  
@@ -108,7 +108,7 @@ def tool():
     print(Fore.GREEN +f'                 ║     [{Fore.WHITE}07{Fore.GREEN}] {Fore.WHITE}SERVER SPAMMER      {Fore.GREEN}║     {Fore.GREEN}[{Fore.WHITE}16{Fore.GREEN}] {Fore.WHITE}ID GEN          {Fore.GREEN}║     {Fore.GREEN}[{Fore.WHITE}25{Fore.GREEN}] {Fore.WHITE}BIO CHANGER         {Fore.GREEN}║')
     print(Fore.GREEN +f'                 ║     [{Fore.WHITE}08{Fore.GREEN}] {Fore.WHITE}FRIEND SPAMMER      {Fore.GREEN}║     {Fore.GREEN}[{Fore.WHITE}17{Fore.GREEN}] {Fore.WHITE}NAME GEN        {Fore.GREEN}║     {Fore.GREEN}[{Fore.WHITE}26{Fore.GREEN}] {Fore.WHITE}ID TO TOKEN     {Fore.GREEN}    ║')
     print(Fore.GREEN +f'                 ║     [{Fore.WHITE}09{Fore.GREEN}] {Fore.WHITE}GROUPCHAT SPAMMER   {Fore.GREEN}║     {Fore.GREEN}[{Fore.WHITE}18{Fore.GREEN}] {Fore.WHITE}DDOS ATTACKER   {Fore.GREEN}║     {Fore.GREEN}[{Fore.WHITE}27{Fore.GREEN}] {Fore.WHITE}MASE REPORT     {Fore.GREEN}    ║')
-    print(Fore.GREEN +                   ║                              ║                          ║                              ║')
+    print(Fore.GREEN + '                 ║                              ║                          ║                              ║')
     print(Fore.GREEN + '                 ╚══════════════════════════════╩══════════════════════════╩══════════════════════════════╝')
     print(Fore.GREEN +f'                                                                                          {Fore.GREEN}[{Fore.WHITE}>{Fore.GREEN}] {Fore.WHITE}NEXT PAGE')
     print(Fore.GREEN + '')
@@ -199,7 +199,7 @@ def tool():
 
       ''')
       tukan = input(f'''{Fore.GREEN}[{Fore.WHITE}+{Fore.GREEN}] {Fore.WHITE}What is the token you want to mess up?: ''')
-      times = int(inut(f'''{Fore.GREEN}[{Fore.WHITE}+{Fore.GREEN}] {Fore.WHITE}How many times do you want to blind the user of the token?: '''))
+      times = int(input(f'''{Fore.GREEN}[{Fore.WHITE}+{Fore.GREEN}] {Fore.WHITE}How many times do you want to blind the user of the token?: '''))
 
       header = {
           "authority": "discord.com",
@@ -2318,7 +2318,7 @@ if __name__ == '__main__':
             tokens.append(line)
 
         for element in tokens:
-            token.append(elment.strip())
+            token.append(element.strip())
 
         length = len(token)
 
